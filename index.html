@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gaussian Elimination</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3>Matrix</h3>
+            <table id="values" class="table table-bordered table-striped matrix">
+                <tr>
+                    <td class="r0c0" contenteditable="true">2</td>
+                    <td class="r0c1" contenteditable="true">-6</td>
+                    <td class="r0c2" contenteditable="true">8</td>
+                    <td class="r0c3" contenteditable="true">24</td>
+                </tr>
+                <tr>
+                    <td class="r1c0" contenteditable="true">5</td>
+                    <td class="r1c1" contenteditable="true">4</td>
+                    <td class="r1c2" contenteditable="true">-3</td>
+                    <td class="r1c3" contenteditable="true">2</td>
+                </tr>
+                <tr>
+                    <td class="r2c0" contenteditable="true">3</td>
+                    <td class="r2c1" contenteditable="true">1</td>
+                    <td class="r2c2" contenteditable="true">2</td>
+                    <td class="r2c3" contenteditable="true">16</td>
+                </tr>
+            </table>
+            <button id="solve" class="btn btn-primary">Solve</button>
+            <h3>Gauss</h3>
+            <table id="gauss" class="table table-bordered table-striped matrix">
+                <tr>
+                    <td class="r0c0">-</td>
+                    <td class="r0c1">-</td>
+                    <td class="r0c2">-</td>
+                    <td class="r0c3">-</td>
+                </tr>
+                <tr>
+                    <td class="r1c0">-</td>
+                    <td class="r1c1">-</td>
+                    <td class="r1c2">-</td>
+                    <td class="r1c3">-</td>
+                </tr>
+                <tr>
+                    <td class="r2c0">-</td>
+                    <td class="r2c1">-</td>
+                    <td class="r2c2">-</td>
+                    <td class="r2c3">-</td>
+                </tr>
+            </table>
+            <h3>Jordan</h3>
+            <table id="jordan" class="table table-bordered table-striped matrix">
+                <tr>
+                    <td class="r0c0">-</td>
+                    <td class="r0c1">-</td>
+                    <td class="r0c2">-</td>
+                    <td class="r0c3">-</td>
+                </tr>
+                <tr>
+                    <td class="r1c0">-</td>
+                    <td class="r1c1">-</td>
+                    <td class="r1c2">-</td>
+                    <td class="r1c3">-</td>
+                </tr>
+                <tr>
+                    <td class="r2c0">-</td>
+                    <td class="r2c1">-</td>
+                    <td class="r2c2">-</td>
+                    <td class="r2c3">-</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</html>
