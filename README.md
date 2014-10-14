@@ -1,5 +1,5 @@
-Hello,
+Welcome!
 
-this repo contains a small web-based matrix calculator for solving 3 X 4 matrices.
+This repo is a simple web-based matrix calculator that solves 3 X 4 matrices using gauss-jordan elimination.
 
 Enjoy!
